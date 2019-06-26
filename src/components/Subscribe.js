@@ -35,6 +35,7 @@ class Subscribe extends React.Component {
                 Apple
               </a>{' '}
               &bull;{' '} */}
+              Google{' '}&bull;{' '}Apple{' '}&bull;{' '}
               <a href={metaData.feed.spotify} target="_blank">
                 Spotify
               </a>{' '}

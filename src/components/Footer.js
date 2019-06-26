@@ -19,6 +19,9 @@ class Footer extends React.Component {
           Host: Henry Zhu
         </div>
         <div>
+          Temporary Cover Art: Mariko Kosaka
+        </div>
+        <div>
           Music: Angus Croll (author), Shawn Wang (cover)
         </div>
         <Link

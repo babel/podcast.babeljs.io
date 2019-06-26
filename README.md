@@ -1,4 +1,4 @@
-# [hopeinsource.com](https://hopeinsource.com)
+# [podcast.babeljs.io](https://podcast.babeljs.io)
 
 ## Run
 
@@ -7,8 +7,3 @@ yarn
 yarn dev
 open https://localhost:8000
 ```
-
-## Updating pages
-
-> https://github.com/hzoo/hopeinsource.com/tree/master/src/pages
-

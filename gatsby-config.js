@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: 'Hope in Source — A podcast about faith and open source — with Nadia Eghbal & Henry Zhu',
-    author: 'Nadia Eghbal & Henry Zhu',
-    description: 'What are the parallels between faith and open source software? Join Nadia and Henry for an off-the-cuff conversation between friends.',
+    title: 'The Babel Podcast',
+    author: 'Henry Zhu',
+    description: `Henry Zhu chats with other members of the team, TC39, and the JS community about the future of JavaScript, open source, and how it's all maintained.`,
     gitOrg: 'hzoo',
-    siteUrl: 'hopeinsource.com',
+    siteUrl: 'podcast.babeljs.io',
     social: {
       twitter: '@left_pad',
     },
     feed: {
-      rss: 'https://feeds.simplecast.com/9H3Jd25O',
-      google: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D',
-      apple: 'https://itunes.apple.com/us/podcast/hope-in-source/id1437677655',
-      spotify: 'https://open.spotify.com/show/5EXwiyKzPrrucncKyrHy0B',
+      rss: 'https://feeds.transistor.fm/the-babel-podcast',
+      google: 'https://www.google.com/',
+      apple: 'https://itunes.apple.com/',
+      spotify: 'https://open.spotify.com/show/3TK8x8AGckeEQEtnJVZYAz',
     },
   },
   pathPrefix: '/',
@@ -54,18 +54,18 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-127078332-1`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: `UA-127078332-1`,
+    //   },
+    // },
     // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Hope in Source`,
-        short_name: `Hope in Source`,
+        name: `The Babel Podcast`,
+        short_name: `The Babel Podcast`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

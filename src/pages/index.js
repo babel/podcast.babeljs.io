@@ -47,7 +47,7 @@ class BlogIndex extends React.Component {
           )
         })}
 
-        <Testimonial />
+        {/* <Testimonial /> */}
 
         <Footer />
       </Layout>

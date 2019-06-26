@@ -18,15 +18,16 @@ class Intro extends React.Component {
         maxWidth: '472px',
         margin: '0 auto',
       }}>
-        <img src={cover} alt="Hope in Source Cover Art"/>
+        <img src={cover} alt="Babel Podcast Cover Art"/>
         
         <p>
-          Join{' '}
-          <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{' '}
-          <a href="https://twitter.com/left_pad">Henry Zhu</a> for an
-          off-the-cuff conversation between friends. Read the backstory from{' '}
-          <a href="https://henryzoo.com/living-out-in-faith">Henry</a> and{' '}
-          <a href="https://nadiaeghbal.com/public-faith">Nadia</a>.
+          You probably use <a href="https://babeljs.io/">Babel</a>. Do you ever wonder who works on it?
+          Or maybe it's in your dependencies and you don't even know.
+          <a href="https://twitter.com/left_pad">Henry Zhu</a> chats with other members of the team,
+          TC39, and the JS community about
+          the future of JavaScript, open source,
+          and how it's all maintained.
+          Join us in babbling about Babel!
         </p>
         
         <Subscribe />

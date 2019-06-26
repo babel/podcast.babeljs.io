@@ -16,10 +16,10 @@ class Footer extends React.Component {
       >
         <Subscribe />
         <div>
-          Hosts: Nadia Eghbal & Henry Zhu
+          Host: Henry Zhu
         </div>
         <div>
-          Cover Art: Jessica Han | Music: Ken Wheeler
+          Music: Angus Croll (writer), Shawn Wang (vocals)
         </div>
         <Link
           style={{

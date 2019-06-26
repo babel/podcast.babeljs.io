@@ -1,12 +1,13 @@
 {
-  "name": "hopeinsource",
+  "name": "podcast.babeljs.io",
   "private": true,
-  "description": "Hope in Source website",
+  "description": "Babel Podcast website",
   "version": "1.0.0",
   "author": "Henry Zhu <hi@henryzoo.com>",
   "bugs": {
-    "url": "https://github.com/hzoo/hopeinsource.com/issues"
+    "url": "https://github.com/hzoo/podcast.babeljs.io/issues"
   },
+  "homepage": "https://podcast.babeljs.io",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-plugin-feed": "^2.0.8",
@@ -40,7 +41,6 @@
   "devDependencies": {
     "prettier": "^1.14.2"
   },
-  "homepage": "https://hopeinsource.com",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",

@@ -37,27 +37,18 @@ class BlogPostTemplate extends React.Component {
 
         {
           <iframe
-            height="52px"
+            src={`https://share.transistor.fm/e/${post.frontmatter.episodeLink}`}
             width="100%"
-            frameborder="no"
+            height="180"
+            frameBorder="0"
             scrolling="no"
             seamless
-            src={`https://player.simplecast.com/${post.frontmatter.episodeLink}?dark=true&color=1B2B34`}>
-          </iframe>
+          ></iframe>
         }
 
         <blockquote>{post.frontmatter.description}</blockquote>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-
-        <h2>Credits</h2>
-        <p>
-          Hosted by <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{' '}
-          <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
-          Edited by <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
-          Cover art by Jessica Han. <br />
-          Music by <a href="https://twitter.com/ken_wheeler">Ken Wheeler</a>.
-        </p>
 
         <p>
           <a href={discussUrl} target="_blank" rel="noopener noreferrer">

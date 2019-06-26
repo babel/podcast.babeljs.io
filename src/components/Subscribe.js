@@ -27,14 +27,14 @@ class Subscribe extends React.Component {
           const metaData = data.site.siteMetadata;
           return (
             <p>
-              <a href={metaData.feed.google} target="_blank">
+              {/* <a href={metaData.feed.google} target="_blank">
                 Google
               </a>{' '}
               &bull;{' '}
               <a href={metaData.feed.apple} target="_blank">
                 Apple
               </a>{' '}
-              &bull;{' '}
+              &bull;{' '} */}
               <a href={metaData.feed.spotify} target="_blank">
                 Spotify
               </a>{' '}

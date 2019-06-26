@@ -19,7 +19,7 @@ class Footer extends React.Component {
           Host: Henry Zhu
         </div>
         <div>
-          Music: Angus Croll (writer), Shawn Wang (vocals)
+          Music: Angus Croll (author), Shawn Wang (cover)
         </div>
         <Link
           style={{

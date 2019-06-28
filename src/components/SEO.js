@@ -45,6 +45,10 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                 })}
             meta={[
               {
+                name: 'google-site-verification',
+                content: 'Zku-i0wV0xj4F39Ru1NIJrVweRDop37mEJUYhbh4PXI',
+              },
+              {
                 name: 'description',
                 content: metaDescription,
               },

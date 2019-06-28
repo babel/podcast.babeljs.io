@@ -16,13 +16,16 @@ class Footer extends React.Component {
       >
         <Subscribe />
         <div>
-          Host: Henry Zhu
+          Host: <a href="https://twitter.com/left_pad">Henry Zhu</a>
         </div>
         <div>
-          Temporary Cover Art: Mariko Kosaka
+          Temporary Cover Art: <a href="https://twitter.com/kosamari/status/808409755278397441">Mariko Kosaka</a>, via <a href="https://kosamari.github.io/sweaterify">Sweaterify</a>
         </div>
         <div>
-          Music: Angus Croll (author), Shawn Wang (cover)
+          Music: <a href="https://twitter.com/angustweets">Angus Croll</a> (<a href="https://github.com/babel/babel/blob/master/SONG.md">author</a>), <a href="https://twitter.com/swyx">Shawn Wang</a> (<a href="https://www.youtube.com/watch?v=40abpedBKK8">cover</a>)
+        </div>
+        <div>
+          Supported via <a href="https://opencollective.com/babel">Open Collective</a>
         </div>
         <Link
           style={{

@@ -31,11 +31,11 @@ class Subscribe extends React.Component {
                 Google
               </a>{' '}
               &bull;{' '}*/}
+              Google{' '}&bull;{' '}
               <a href={metaData.feed.apple} target="_blank">
                 Apple
               </a>{' '}
               &bull;{' '}
-              Google{' '}&bull;{' '}Apple{' '}&bull;{' '}
               <a href={metaData.feed.spotify} target="_blank">
                 Spotify
               </a>{' '}

@@ -11,7 +11,7 @@ module.exports = {
     feed: {
       rss: 'https://feeds.transistor.fm/the-babel-podcast',
       google: 'https://www.google.com/',
-      apple: 'https://itunes.apple.com/',
+      apple: 'https://podcasts.apple.com/us/podcast/the-babel-podcast/id1470143101',
       spotify: 'https://open.spotify.com/show/3TK8x8AGckeEQEtnJVZYAz',
     },
   },

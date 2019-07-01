@@ -10,7 +10,7 @@ module.exports = {
     },
     feed: {
       rss: 'https://feeds.transistor.fm/the-babel-podcast',
-      google: 'https://www.google.com/',
+      google: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL3RoZS1iYWJlbC1wb2RjYXN0',
       apple: 'https://podcasts.apple.com/us/podcast/the-babel-podcast/id1470143101',
       spotify: 'https://open.spotify.com/show/3TK8x8AGckeEQEtnJVZYAz',
     },

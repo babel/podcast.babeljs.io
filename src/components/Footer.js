@@ -25,7 +25,7 @@ class Footer extends React.Component {
           Music: <a href="https://twitter.com/angustweets">Angus Croll</a> (<a href="https://github.com/babel/babel/blob/master/SONG.md">author</a>), <a href="https://twitter.com/swyx">Shawn Wang</a> (<a href="https://www.youtube.com/watch?v=40abpedBKK8">cover</a>)
         </div>
         <div>
-          Supported by our<a href="https://github.com/babel/babel?sponsor=1">sponsors</a>!
+          Supported by our <a href="https://github.com/babel/babel?sponsor=1">sponsors</a>!
         </div>
         <Link
           style={{

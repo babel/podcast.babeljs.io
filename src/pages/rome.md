@@ -7,9 +7,9 @@ episodeLink: b65dd0f9
 embedUrl: https://share.transistor.fm/s/b65dd0f9
 ---
 
-## Links (TBD)
+## Links (WIP)
 
-## Transcript (WIP)
+## Transcript ([edit](https://github.com/hzoo/podcast.babeljs.io/edit/master/src/pages/rome.md))
 
 Henry:          00:00:26       (singing). Today I have with me, Sebastian McKenzie. If people didn't know, Sebastian is the creator of Babel (the tool) so it was not me. And I know that we could probably talk forever, and I think we should probably make a few different episodes. But I think for this one, we just wanted to talk about a little bit about the origins of Babel (the tool) and then maybe his learnings through working on that project and then also the future of Babel (the tool) like Rome and JavaScript, in general. Thanks for joining me today.
 

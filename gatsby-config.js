@@ -4,7 +4,7 @@ module.exports = {
     author: 'Henry Zhu',
     description: `Henry Zhu chats with other members of the team, TC39, and the JS community about the future of JavaScript, open source, and how it's all maintained.`,
     gitOrg: 'hzoo',
-    siteUrl: 'podcast.babeljs.io',
+    siteUrl: 'https://podcast.babeljs.io',
     social: {
       twitter: '@left_pad',
     },

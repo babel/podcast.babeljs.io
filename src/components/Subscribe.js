@@ -5,8 +5,9 @@ const query = graphql`
   query getFeed {
     site {
       siteMetadata {
-        gitOrg,
-        siteUrl,
+        gitOrg
+        gitRepo
+        siteUrl
         feed {
           rss
           google
@@ -43,7 +44,7 @@ class Subscribe extends React.Component {
                 RSS
               </a>{' '}
               &bull;{' '}
-              <a href={`https://github.com/${metaData.gitOrg}/${metaData.siteUrl}`} target="_blank">
+              <a href={`https://github.com/${metaData.gitOrg}/${metaData.gitRepo}`} target="_blank">
                 GitHub
               </a>
             </p>

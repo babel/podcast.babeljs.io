@@ -10,6 +10,8 @@ embedUrl: https://share.transistor.fm/s/7d1ee7fe
 ## Links
 
 - [YouTube](https://youtu.be/Hw1qScL1tAQ)
+- [preset-env code](https://github.com/babel/babel/tree/master/packages/babel-preset-env)
+- [preset-env docs](https://babeljs.io/docs/en/babel-preset-env)
 - On PhoneGap's [obsolescense](https://phonegap.com/blog/2012/05/09/phonegap-beliefs-goals-and-philosophy/): "The ultimate purpose of PhoneGap is to cease to exist." - Brian Leroux
 
 ## Transcript

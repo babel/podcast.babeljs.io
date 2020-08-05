@@ -15,7 +15,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteMetadata = get(this.props, 'data.site.siteMetadata')
     const { previous, next, slug } = this.props.pageContext
-    const editUrl = `https://github.com/${siteMetadata.gitOrg}/${siteMetadata.siteUrl}/edit/master/src/pages/${slug.replace(
+    const editUrl = `https://github.com/${siteMetadata.gitOrg}/${siteMetadata.siteUrl.replace('https://','')}/edit/master/src/pages/${slug.replace(
       /\//g,
       ''
     )}.md`

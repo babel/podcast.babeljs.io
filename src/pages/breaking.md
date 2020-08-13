@@ -2,7 +2,7 @@
 title: '04: Fred Schott on Breaking Changes'
 date: '2020-08-13'
 time: '52'
-description: "Fred Schott joins Henry to have a discussion around the topic of breaking changes in programming. We chat about Snowpack and Babel's major versions, different vision means a new name (Rome), semver, RFCs, BDFLs, breaking changes as bug fixes, forking, and more!"
+description: "Fred Schott joins Henry to have a discussion around the topic of breaking changes in programming. We chat about Snowpack and Babel's major versions, different vision means a new name (Rome), semver, RFCs, BDFLs, breaking changes as bug fixes, forking, and more! (recorded in April)"
 episodeLink: 5820d3ef
 embedUrl: https://share.transistor.fm/s/5820d3ef
 ---

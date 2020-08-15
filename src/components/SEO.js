@@ -1,8 +1,8 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
-import cover from '../assets/icon.jpg'
+import React from "react";
+import Helmet from "react-helmet";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
+import babel_cover from "../assets/babel.jpg";
 
 const query = graphql`
   query GetSiteMetadata {
@@ -21,20 +21,29 @@ const query = graphql`
       }
     }
   }
-`
+`;
 
-function SEO({ meta, image=cover, title, description, slug, appId=1437677655, embedUrl }) {
+function SEO({
+  meta,
+  title,
+  image,
+  description,
+  slug,
+  appId = 1437677655,
+  embedUrl,
+}) {
   return (
     <StaticQuery
       query={query}
-      render={data => {
-        const { siteMetadata } = data.site
-        const metaDescription = description || siteMetadata.description
-        const metaImage = image ? `${siteMetadata.siteUrl}${image}` : null
-        const url = `${siteMetadata.siteUrl}${slug}`
+      render={(data) => {
+        const { siteMetadata } = data.site;
+        image = image || babel_cover;
+        const metaDescription = description || siteMetadata.description;
+        const metaImage = image ? `${siteMetadata.siteUrl}${image}` : null;
+        const url = `${siteMetadata.siteUrl}${slug}`;
         return (
           <Helmet
-            htmlAttributes={{ lang: 'en' }}
+            htmlAttributes={{ lang: "en" }}
             {...(title
               ? {
                   titleTemplate: `%s - ${siteMetadata.title}`,
@@ -45,31 +54,27 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                 })}
             meta={[
               {
-                name: 'google-site-verification',
-                content: 'Zku-i0wV0xj4F39Ru1NIJrVweRDop37mEJUYhbh4PXI',
-              },
-              {
-                name: 'description',
+                name: "description",
                 content: metaDescription,
               },
               {
-                property: 'og:url',
+                property: "og:url",
                 content: url,
               },
               {
-                property: 'og:title',
+                property: "og:title",
                 content: title || siteMetadata.title,
               },
               {
-                name: 'og:description',
+                name: "og:description",
                 content: metaDescription,
               },
               {
-                name: 'twitter:card',
-                content: embedUrl ? 'player': 'summary',
+                name: "twitter:card",
+                content: embedUrl ? "player" : "summary",
               },
               {
-                name: 'twitter:creator',
+                name: "twitter:creator",
                 content: siteMetadata.social.twitter,
               },
             ]
@@ -77,7 +82,7 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                 metaImage
                   ? [
                       {
-                        property: 'og:image',
+                        property: "og:image",
                         content: metaImage,
                       },
                     ]
@@ -87,16 +92,16 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                 embedUrl
                   ? [
                       {
-                        name: 'twitter:player',
+                        name: "twitter:player",
                         content: `${embedUrl}`,
                       },
                       {
-                        name: 'twitter:player:width',
-                        content: '438',
+                        name: "twitter:player:width",
+                        content: "500",
                       },
                       {
-                        name: 'twitter:player:height',
-                        content: '52',
+                        name: "twitter:player:height",
+                        content: "180",
                       },
                     ]
                   : []
@@ -105,7 +110,7 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                 appId
                   ? [
                       {
-                        name: 'apple-itunes-app',
+                        name: "apple-itunes-app",
                         content: `app-id=${appId}`,
                       },
                     ]
@@ -120,17 +125,17 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
               href={siteMetadata.feed.rss}
             />
           </Helmet>
-        )
+        );
       }}
     />
-  )
+  );
 }
 
 SEO.defaultProps = {
   meta: [],
-  title: '',
-  slug: '',
-}
+  title: "",
+  slug: "",
+};
 
 SEO.propTypes = {
   description: PropTypes.string,
@@ -138,6 +143,6 @@ SEO.propTypes = {
   meta: PropTypes.array,
   slug: PropTypes.string,
   title: PropTypes.string.isRequired,
-}
+};
 
-export default SEO
+export default SEO;

@@ -1,38 +1,37 @@
-import React from 'react'
+import React from "react";
 
 // Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
-import cover from '../assets/icon.jpg'
-import Subscribe from './Subscribe'
+import "typeface-montserrat";
+import "typeface-merriweather";
+import babel_cover from "../assets/babel.jpg";
+import Subscribe from "./Subscribe";
 
-class Intro extends React.Component {
-  render() {
-    return (
-      <div style={{
+const Intro = ({ title }) => {
+  return (
+    <div
+      style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        textAlign: 'center',
-        maxWidth: '472px',
-        margin: '0 auto',
-      }}>
-        <img src={cover} alt="Babel Podcast Cover Art"/>
-        
-        <p>
-          You probably use <a href="https://babeljs.io/">Babel</a>, directly or as a dependency.
-          But do you ever wonder who works on it? <a href="https://twitter.com/left_pad">Henry Zhu</a> chats
-          with other members of the team,
-          TC39, and the JS community about
-          the future of JavaScript and how it's all maintained.
-          Please join us in babbling about Babel!
-        </p>
-        
-        <Subscribe />
-      </div>
-    )
-  }
-}
+        textAlign: "center",
+        maxWidth: "472px",
+        margin: "0 auto",
+      }}
+    >
+      <img src={babel_cover} alt={`${title} Cover Art`} />
 
-export default Intro
+      <p>
+        How can we work together to achieve a common goal: whether in our code,
+        cities, or infrastructure?{" "}
+        <a href="https://twitter.com/left_pad">Henry Zhu</a> chats with fellow
+        maintainers across all disciplines of life on their process,
+        motivations, and struggles as they learn in public.
+      </p>
+
+      <Subscribe />
+    </div>
+  );
+};
+
+export default Intro;

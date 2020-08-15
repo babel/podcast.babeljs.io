@@ -1,11 +1,12 @@
 # [podcast.babeljs.io](https://podcast.babeljs.io)
 
-> Plan is to use https://github.com/amberleyromo/gatsby-themes (based on the original setup via https://hopeinsource.com)
+![Episode Preview](https://i.imgur.com/yV9MMgd.png)
 
-## Run
+- Edit Transcripts: https://github.com/babel/podcast.babeljs.io/tree/master/episodes
+
+## Preview
 
 ```sh
-yarn
 yarn dev
 open https://localhost:8000
 ```

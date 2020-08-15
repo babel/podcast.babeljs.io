@@ -1,34 +1,39 @@
-module.exports = {
-  siteMetadata: {
-    title: 'The Babel Podcast',
-    author: 'Henry Zhu',
-    description: `Henry Zhu chats with other members of the team, TC39, and the JS community about the future of JavaScript, open source, and how it's all maintained.`,
-    gitOrg: 'hzoo',
-    gitRepo: 'podcast.babeljs.io',
-    siteUrl: 'https://podcast.babeljs.io',
-    social: {
-      twitter: '@left_pad',
-    },
-    feed: {
-      rss: 'https://feeds.transistor.fm/the-babel-podcast',
-      google: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL3RoZS1iYWJlbC1wb2RjYXN0',
-      apple: 'https://podcasts.apple.com/us/podcast/the-babel-podcast/id1470143101',
-      spotify: 'https://open.spotify.com/show/3TK8x8AGckeEQEtnJVZYAz',
-    },
+let babel_metadata = {
+  title: "The Babel Podcast",
+  author: "Henry Zhu",
+  description: `Henry Zhu chats with other members of the team, TC39, and the JS community about the future of JavaScript, open source, and how it's all maintained.`,
+  gitOrg: "babel",
+  gitRepo: "podcast.babeljs.io",
+  siteUrl: "https://podcast.babeljs.io",
+  social: {
+    twitter: "@babeljs",
   },
-  pathPrefix: '/',
+  feed: {
+    rss: "https://feeds.transistor.fm/the-babel-podcast",
+    google:
+      "https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL3RoZS1iYWJlbC1wb2RjYXN0",
+    apple:
+      "https://podcasts.apple.com/us/podcast/the-babel-podcast/id1470143101",
+    spotify: "https://open.spotify.com/show/3TK8x8AGckeEQEtnJVZYAz",
+  },
+};
+
+module.exports = {
+  siteMetadata: babel_metadata,
+  pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
+        path: `${__dirname}/episodes`,
+        name: "episodes",
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -36,51 +41,29 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-responsive-iframe`,
+            resolve: "gatsby-remark-autolink-headers",
             options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
+              offsetY: "20",
             },
           },
-          'gatsby-remark-autolink-headers',
+          "gatsby-remark-copy-linked-files",
           {
-            resolve: 'gatsby-remark-prismjs',
-            options: {
-              inlineCodeMarker: '÷',
-            },
+            resolve: require.resolve(
+              "./plugins/gatsby-remark-podcast-timestamp"
+            ),
           },
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
         ],
+        plugins: [`gatsby-remark-autolink-headers`],
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `UA-127078332-1`,
-    //   },
-    // },
-    // `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `The Babel Podcast`,
-        short_name: `The Babel Podcast`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/assets/icon.jpg`,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-typography',
+      resolve: "gatsby-plugin-typography",
       options: {
-        pathToConfigModule: 'src/utils/typography',
+        pathToConfigModule: "src/utils/typography",
       },
     },
-    `gatsby-plugin-twitter`
   ],
-}
+};

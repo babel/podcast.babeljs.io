@@ -92,13 +92,13 @@ embedUrl: https://share.transistor.fm/s/63614a0e
 
 [05:44] **Henry**: I'm assuming then you already knew how to code.
 
-[05:46] **Nicolò**: Yes. I mean, I learned web development when I was I think in middle school. I was like 13, maybe, because a friend of mine, convinced me to build a Facebook competitor. So it didn't end up well, but at least I learned like HTML and CSS and some PHP.
+[05:46] **Nicolò**: Yes. I mean, I learned web development when I was I think in middle school. I was like 13, maybe, because a friend of mine, convinced me to build a Facebook competitor. So it didn't end up well, but at least I learned HTML and CSS and some PHP.
 
-[06:08] **Henry**: Oh, wow. So you learned it on your own. It's pretty similar to me too, where like you use something and then you realize it's open source.
+[06:08] **Henry**: Oh, wow. So you learned it on your own. It's pretty similar to me too, where you use something and then you realize it's open source.
 
 [06:16] **Nicolò**: Yeah. I learned jQuery before learning JavaScript.
 
-[06:19] **Nicolò**: But then at some point I was bored with my like browser plugins and I started looking for something else to do. And I'm not real good at having ideas to build things. I usually get ideas from others. 
+[06:19] **Nicolò**: But then at some point I was bored with my browser plugins and I started looking for something else to do. And I'm not real good at having ideas to build things. I usually get ideas from others. 
 
 [06:33] **Nicolò**: And so this thing about open source where you can just find the random project and help was like the best way for me to learn. And I remember that I started contributing to the Adobe Brackets extensions because it was the editor I was using. And then I moved to contribute into other projects. I remember I opened a few PRS to JSHint.
 
@@ -110,7 +110,7 @@ embedUrl: https://share.transistor.fm/s/63614a0e
 
 [07:14] **Henry**: Oh, that was back then. 
 
-[07:15] **Nicolò**: It was like no, this is not the correct way to do this. But then I somehow opened a second PR for a completely different thing a few months later, even if my first one was just closed with a single comment. And so then my PRs start getting merged and then you asked me if I wanted to do more. And so that's how it started.
+[07:15] **Nicolò**: It was like "no, this is not the correct way to do this". But then I somehow opened a second PR for a completely different thing a few months later, even if my first one was just closed with a single comment. And so then my PRs start getting merged and then you asked me if I wanted to do more. And so that's how it started.
 
 [07:41] **Henry**: Well, I mean, that's good for people to hear I hope. Just like me too, we all started with like this really simple stuff and we kept going. 
 
@@ -134,7 +134,7 @@ embedUrl: https://share.transistor.fm/s/63614a0e
 
 [09:29] **Henry**: Yeah. Let's talk about why you continue to work in open source and this project. I don't know if you've thought about that much, but.
 
-[09:36] **Nicolò**: Not really. I guess one reason is that since I'm studying, I do not have like a job. Because I'm studying, I wouldn't have time for both things. Open source is a very good way for me to keep doing this programming stuff I like.
+[09:36] **Nicolò**: Not really. I guess one reason is that since I'm studying, I do not have a job. Because I'm studying, I wouldn't have time for both things. Open source is a very good way for me to keep doing this programming stuff I like.
 
 [09:53] **Nicolò**: And I think that even if it's not a good reason to stick with Babel, but it's that I already have the necessary knowledge to work on that. While if I just quit the team and started contributing to a different project, I would have to learn everything from scratch again. 
 
@@ -146,7 +146,7 @@ embedUrl: https://share.transistor.fm/s/63614a0e
 
 [10:52] **Nicolò**: And also, Babel is big enough that when you get bored about what you're doing, you can just move on a different part of the project for a few months. And everything is still fine. Like I used to work a lot on the parser in the past. They have moved to building all the class features, plugins, or reviewing them like, I worked a lot on decorators. 
 
-[11:13] **Nicolò**: When now I think that that's not written a plugin for at least like six months now. And I'm mostly working like either on small bug fixes or doing big things in Babel core, like in config loading. Also like the polyfill stuff. And just moving around in the project by doing like completely different things every few months.
+[11:13] **Nicolò**: When now I think that that's not written a plugin for at least like six months now. And I'm mostly working like either on small bug fixes or doing big things in Babel core, like in config loading. Also like the polyfill stuff. And just moving around in the project by doing completely different things every few months.
 
 [11:34] **Henry**: Yeah, and I think that's great. Cause people make that comparison with startups and big companies. But in open source you can kind of. I mean, you should be able to do whatever you want in some sense. At least you have the freedom to suggest that to the team and that's appealing. Also you get to participate in the committee too, right? So TC39 and that whole thing. 
 
@@ -160,13 +160,13 @@ embedUrl: https://share.transistor.fm/s/63614a0e
 
 [12:49] **Henry**: Maybe we can talk about that too. Since it's been three years, the things that you do in Babel are different than when you started. And the things that you even think about, what do you care about, how has that changed?
 
-[13:00] **Nicolò**: Yeah. Like when I started, I felt like a part of the team, but not really felt like I needed like to manage somehow the team. Well now I like to make sure that everyone working on Babel is doing well. Like I sometimes just write to other people in the team, checking like how they are, like just have random chats with the other.
+[13:00] **Nicolò**: Yeah. Like when I started, I felt like a part of the team, but not really felt like I needed to manage somehow the team. Well now I like to make sure that everyone working on Babel is doing well. Like I sometimes just write to other people in the team, checking how they are, just have random chats with the other.
 
 [13:21] **Nicolò**: I mean, I think I started feeling like doing this one year ago. I think it was more than one year ago that I started proposing team members and started reaching out to people outside of the team. 
 
 [13:32] **Henry**: Do you know what made that change? What clicked to make you think like, Oh, there are these other things I can spend my time on that aren't just like fixing bugs and stuff.
 
-[13:42] **Nicolò**: I think that it's because like the team was changing. Like when I first started working with y'all, there were like a lot of people now doing something else. Like Logan, Sven, also Daniel. And at some point I felt like I was one of the people that have been in the team for most time of the remaining people. And I guess that at that point is when I started caring for the team as like a set of people and not just like some people that have like their own things and not just like people I work with for the project.
+[13:42] **Nicolò**: I think that it's because like the team was changing. Like when I first started working with y'all, there were like a lot of people now doing something else. Like Logan, Sven, also Daniel. And at some point I felt like I was one of the people that have been in the team for most time of the remaining people. And I guess that at that point is when I started caring for the team as a set of people and not just like some people that have their own things and not just like people I work with for the project.
 
 [14:22] **Henry**: Yeah. It might actually be a function of people coming. And you feel that way everywhere. Like you go to a company, open source. You're like, you thought you were the new person. And then now you're like, wait, I'm one of the last people. and then almost like, kind of, it is sort of like a forcing thing where you realize like, Oh, maybe I can step up and do these things. Not that like you necessarily wanted to, but you kind of eventually felt like, Oh, this is a good idea, right? That's awesome.
 
@@ -180,11 +180,11 @@ embedUrl: https://share.transistor.fm/s/63614a0e
 
 [15:37] **Henry**: So you just did an internship with Bloomberg, right? Maybe you could talk about that experience. Cause you were saying that you haven't worked at a company before.
 
-[15:45] **Nicolò**: I did this internship this summer from July to September. It was like my first experience in a company. Which was like completely different. Like the structure, having a manager and then there was like, the manager's manager, was completely different from what there was used to with Babel.
+[15:45] **Nicolò**: I did this internship this summer from July to September. It was my first experience in a company. Which was completely different. Like the structure, having a manager and then there was like, the manager's manager, was completely different from what there was used to with Babel.
 
 [16:01] **Nicolò**:So like during this internship, I've been still working on stuff related to what I was already doing with Babel, because I've helped developing a JavaScript proposal, which was Record and Tuples. It's now stage two and it reached Stage 2 while I was doing this internship. So it was like a super exciting moment for me.
 
-[16:24] **Nicolò**: Rob Palmer, which was my manager that probably many people in the JavaScript community know, asked me if I was interested because like he taught that since I was already working on language stuff and I was really enjoying that. And he thought that this was like the perfect opportunity for me to do an internship in something that I actually liked. I mean, he was the right.
+[16:24] **Nicolò**: Rob Palmer, which was my manager that probably many people in the JavaScript community know, asked me if I was interested because he taught that since I was already working on language stuff and I was really enjoying that. And he thought that this was the perfect opportunity for me to do an internship in something that I actually liked. I mean, he was the right.
 
 [16:48] **Henry**: That's awesome. You told everyone on the team and we were really excited for you too. Makes sense. You're already doing all this stuff in Babel and now you get to make the proposal.. See it through maybe to the end, when it actually gets in instead of just like implementing what someone else made, right.
 
@@ -214,7 +214,7 @@ embedUrl: https://share.transistor.fm/s/63614a0e
 
 [19:34] **Nicolò**: Okay. Well whenever I spend too much time dealing with issues or always doing small bug fixes, sometimes I get bored and I lose motivation to work on that. So like when it happens, I just look for like something maybe big to do.
 
-[19:52] **Nicolò**:For example, like after my internship, when I started working again on Babel, by the end of September, for some reason, I wasn't like real excited to come back. So I started doing like a bunch of different things. I wrote that yarn plugin that we now use to manage releases. I had the opportunity to focus on something completely different to get back my energy and then to work again on what I usually do.
+[19:52] **Nicolò**:For example, like after my internship, when I started working again on Babel, by the end of September, for some reason, I wasn't really excited to come back. So I started doing like a bunch of different things. I wrote that yarn plugin that we now use to manage releases. I had the opportunity to focus on something completely different to get back my energy and then to work again on what I usually do.
 
 [20:22] **Henry**: Yeah, that's awesome. If anything, I would encourage people to do that more. I think what I want to challenge is this assumption that most of the time you're doing maintenance you have to be fixing bugs and looking at issues when.. Not that we shouldn't ever look at issues.
 
